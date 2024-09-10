@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mnist"
+version = "0.1.0"
+description = "Projeto destinado a seguir os passos do livro Hands on Machine Learning, Capítulo 3"
+authors = ["joão <->"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+scikit-learn = "*"
+[tool.poetry.dev-dependencies]
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
